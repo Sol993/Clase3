@@ -24,9 +24,15 @@
 			<!--CODIFICAR LOS ATRIBUTOS DEL FORMULARIO-->
 			<form id="FormIngreso" method="POST" action="administracion.php">
 			
-				<span class="class="list-group-item-heading">Apellido:</span><input type="text" name="Ape"/>
-				<span class="class="list-group-item-heading">Nombre:</span><input type="text" name="Nom" I/>
-				<span class="class="list-group-item-heading">Dni:</span><input type="text" name="Dni"/>
+				<span class="class="list-group-item-heading">Apellido:</span><input type="text" name="Ape" ID="ape"/>
+				<span class="class="list-group-item-heading">Nombre:</span><input type="text" name="Nom" ID="nom"/>
+				<span class="class="list-group-item-heading">Dni:</span><input type="text" name="Dni" ID="dni"/>
+				<span class="class="list-group-item-heading">Sexo:</span>
+				<span class="class="list-group-item-heading">Masculino:</span><input type="radio" name="sex"/>
+				<span class="class="list-group-item-heading">Femenino:</span><input type="radio" name="sex"/></br>
+				<span class="class="list-group-item-heading">Legajo:</span><input type="text" name="Leg" ID="leg"/>
+				<span class="class="list-group-item-heading">Sueldo:</span><input type="text" name="Sueldo" ID="sueldo"/>
+
 
 
 
@@ -34,7 +40,7 @@
 				
 				<!--CODIFICAR LOS ELEMENTOS DEL FORMULARIO-->
 				
-				
+				</br>
 				<input type="submit" class="MiBotonUTNMenu"  value="Enviar"/>
 				<input type="reset" class="MiBotonUTNMenu" value="Limpiar"/>
 			</form>
